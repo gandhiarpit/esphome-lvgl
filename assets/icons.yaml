@@ -21,6 +21,7 @@ font:
       "\U000F0614",  # mdi-application-outline
       "\U000F089E",  # mdi-battery
       "\U000F07DE",  # mdi-filament
+      "\U000F0317",  # mdi-lan
       ]
 
 # Map icons to names
@@ -40,4 +41,5 @@ substitutions:
   application:    "\U000F0614"
   battery:        "\U000F089E"
   filament:       "\U000F07DE"
+  lan:            "\U000F0317"
 
