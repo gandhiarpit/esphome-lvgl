@@ -27,9 +27,7 @@ lvgl:
     - id: main_page
       layout: 
         type: flex
-        flex_flow: column_nowrap
-      scrollbar_mode: auto
-      scroll_dir: vertical
+        flex_flow: column_wrap
       width: 100%
       bg_color: Black
       bg_opa: cover
