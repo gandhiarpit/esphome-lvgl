@@ -8,6 +8,14 @@ light:
     default_transition_length: 1s
     internal: true
 
+# Turn backlight on at boot
+automation:
+  - on_boot:
+      priority: 600
+      then:
+        - light.turn_on: backlight
+        - logger.log: "Backlight turned on at boot"
+
 # Screensaver Presence Trigger
 binary_sensor:
   - platform: homeassistant
