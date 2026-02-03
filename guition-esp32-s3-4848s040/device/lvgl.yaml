@@ -252,7 +252,7 @@ lvgl:
               - label:
                   text_font: $icon_font
                   align: top_left
-                  text: $blinds_open
+                  text: $blinds_closed
               - label:
                   align: bottom_left
                   text: "Blinds"
