@@ -24,6 +24,11 @@ font:
     size: 120
     bpp: 4
 
+  - file: "gfonts://Roboto:wght@100"
+    id: roboto120_thin_font
+    size: 120
+    bpp: 4
+
   - file: "gfonts://Roboto"
     id: roboto44_font
     size: 44

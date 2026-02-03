@@ -86,7 +86,7 @@ lvgl:
         - label:
             text: "--:--"
             id: experiment_time
-            text_font: roboto120_font
+            text_font: roboto120_thin_font
             text_color: 0xFFFFFF
             align: center
             text_align: center
@@ -112,6 +112,22 @@ lvgl:
                   text: "Home"
             on_click:
               - lvgl.page.show: main_page
+
+      on_load:
+        - lvgl.widget.update:
+            id: temperatures
+            hidden: true
+        - lvgl.widget.update:
+            id: display_time
+            hidden: true
+
+      on_unload:
+        - lvgl.widget.update:
+            id: temperatures
+            hidden: false
+        - lvgl.widget.update:
+            id: display_time
+            hidden: false
 
     - id: main_page
       layout: 
