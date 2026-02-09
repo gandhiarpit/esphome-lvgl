@@ -120,4 +120,4 @@ display:
     rotation: 0
     update_interval: never
     auto_clear_enabled: false
-    color_order: BGR
+    hsync_pulse_width: 20     # The only difference to the examples provided
