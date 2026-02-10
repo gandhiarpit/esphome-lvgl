@@ -1,3 +1,4 @@
+
 font:
   - file: "gfonts://Roboto"
     id: roboto17_font
@@ -7,6 +8,11 @@ font:
   - file: "gfonts://Roboto"
     id: roboto15_font
     size: 15
+    bpp: 4
+
+  - file: "gfonts://Roboto"
+    id: roboto16_font
+    size: 16
     bpp: 4
 
   - file: "gfonts://Roboto"
@@ -30,3 +36,5 @@ lvgl:
       text_font: roboto15_font
     - id: roboto24_style
       text_font: roboto24_font
+    - id: roboto16_style
+      text_font: roboto16_font
